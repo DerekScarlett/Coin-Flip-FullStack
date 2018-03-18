@@ -1,0 +1,38 @@
+body{
+  background: #A4A49E;
+  color: #420000;
+}
+button{
+  background-color: #490000;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  color:white;
+}
+h3{
+  margin-top: 40px;
+}
+h1{
+  color: #420000;
+}
+.left, .right{
+  float: left;
+  width: 50%;
+}
+.left{
+  text-align: center;
+}
+.right > img{
+  width: 100%;
+  height: 650px;
+  border-radius: 5px;
+}
+#anime{
+  width: 25%;
+  height: 200px;
+  float: right;
+  margin-top: -200px;
+}
+#list{
+
+}

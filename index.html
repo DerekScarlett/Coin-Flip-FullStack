@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Coin Flip Node App</h1>
+    <h2 id="winLoss"></h2>
+    <h3 id="total"></h3>
+    <h3 id="compTotal"></h3>
+    <button id="heads" type="button" name="button">Heads</button>
+    <button id="tails" type="button" name="button">Tails</button>
+    <script type="text/javascript">
+    document.getElementById("heads").onclick=playerClickedHeads;
+    document.getElementById("tails").onclick=playerClickedTails;
+     //-triggers a fuction that decideds if you win
+     function playerClickedHeads(){
+       var heads = 1;
+       var num = Math.round(Math.random());
+       if(heads === num){
+         console.log("You win!!!!!!!kdjflasdjf");
+         document.getElementById('winLoss').innerHTML="You won!"; 
+       }else {
+         console.log("You lose!!!")
+        document.getElementById('winLoss').innerHTML="You lose";
+       }
+     };
+
+     function playerClickedTails(){
+       var tails = 0;
+       var num = Math.round(Math.random());
+       if(tails === num){
+         console.log("You win")
+         document.getElementById("winLoss").innerHTML="You Win"
+       }else {
+         console.log("You lose!!!")
+         document.getElementById("winLoss").innerHTML="You Lose"
+       }
+     };
+     //-displays result
+    //user clicks on Tails
+     //-triggers a fuction that decideds if you win
+      //-display result
+    //user clicks on Heads
+    </script>
+  </body>
+</html>
