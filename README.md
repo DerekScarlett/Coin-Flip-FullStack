@@ -1,4 +1,4 @@
-# coin-flip
+# Coin-flip Fullstack
 This is a full stack app that allows the user to play heads or tails and keep track on how many times they win and lose.
 
 Link to project: ![coinflipfull](https://user-images.githubusercontent.com/36242561/37572815-2c23b39c-2ae7-11e8-8313-778361774914.png)
